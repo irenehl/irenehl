@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64">
+<style>@font-face { font-family: 'Press Start 2P'; font-style: normal; font-weight: 400; src: url(data:font/woff2;base64,d09GMgABAAAAAASgAAwAAAAADDAAAARRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHCgGYAB8EQgKjXCKNws+AAE2AiQDPgQgBYRKByAbZAnIBJ7/dJ/emdEHz0j718QyAy6wxqBXNK58XDR20uX06cJFzVgppNAEdN9+rYrWIxH1JBIij0SM/Nk52zkTSfiiWj1DaDRLkCSRCYkQTR+y4ZnRgYVzjx6FAiyz1Wv0zt0HTzKi89pgN23IPPIcVVWpmB/VU2oT9BN9Fjjg1ajLLFfvjLpr+MMbXLjj3PFdvEXKefMjdJsfVZY2PbfroutLMTUYkST/KAyhxxhFxF1gDO0Y6qQsZiVb2MYu9nGU05ynBUPNSwfuYA8HOM7Ze1VfVUX1Q/V59Xb1VvVm9Ub1evXajnP69QpVVbRY85TGjZPngN4Iundxc4QkSUWzqM161q6QPSEdNaP25qS4GY+L4yn1UaPiyEYj6pOa8biZ7eNGNeNJk9rr0ajoTKNVv52YmASrnbKq5pRTCQ4XWRVjEohZ7BnTZIZZ26sdeg0W1WgtrdIWy3XvS8YqqxrDaSMhpgVO33IR02VVou/odGJc3ZpYn1GuZlULGzmGYCHuDEGzo/gauTMNFyXT0AWQ1a0JKqvBhtuPVJDTZ5StnTnORZbrSS2mKanAldk0hJ3ZFXlMNuZIVJchOWJgXDu5QZHt2hklNcONkxzGicNgxOC3KA5gWEtUywtbDHsZDQoRBq1CEIzVcN5HYJcE4ePudFrMfu3OPLjPKSc4AWuGuIhHnnDvZS0iTm4MSIzrpuO2e8v3clzYqeOqunuedxQdv2Xel+IleBFB+kREyrHSF4IP3gclLfyd99aXIhIkOCw7JkgHxpnl/c9GOjqkL5RShr7VvE+DSZilL9V88N6HxEIO+dAXpADWT+LjFTTAeni4vD8U5Rx1bzx0hPJCy8oe2BZLXm4N98Nw/G+57/NIR7EZL8/W1HEpHgE1CqQkiIkPZcoeSWjEyfKCMBVL6otQ+CIUQ8iM5S3YbAAz9zEGYppM7PjI8jV2HwIoBLZNyjvvlPJxhdj+d365hhIelR0bCkXQICavuPqkg/OQL/V1XVIcIUGJ3/JQCpW9D+y/ZVedyt95CIG/sy0HhUL2t3j5VjQo9YoD81/54kpr4+9N8y0ff3dO+kc2Pvvm2b/v///E/DhEDcYQml8D+7/vV7N+N5+kzI9I1yjRLLaQaRrGQOlsU1hLzEwaO5Nq+prc/qWxRsMY//h7hlVyxSQKuaaNL+WGzbwsj1hIJq8xgYvyOnNZqW9THwJ3GWSQXtazhCUMcIN+7tHLIMgWM3CbThbTQz93WMIRdnOQo9p5txhggBMMcu3l5kGWc5RFHOcWdxiic0B/GqgfX99DNykrfgchENDLU41SbahUQHw0G9jBOY6ziw3nz9KY95n1O+ihl4e80x2RwNB/WcoylpNykrvcIiUNE/U93OcWNwa82xgCuis6WHz5XG7Qw00espVHAmm8pV+rQXHZIPNYSIrnHgKFQAMC1GdS/iYpuyXYN3+Ya3TRWf90jab/I5CM06pXWY4PAAA=) format('woff2'); unicode-range: U+20, U+2e, U+30-34, U+3f, U+41, U+43-45, U+47-49, U+4b-50, U+52-56, U+58-5a; } 
+  .wiggle { transform-box: fill-box; transform-origin: center; animation: wiggle 3s ease-in-out infinite; }
+  .blink { animation: blink 1.2s steps(2) infinite; }
+  .hop { transform-box: fill-box; transform-origin: center; animation: hop 1s cubic-bezier(.34,1.56,.64,1) infinite alternate; }
+  .draw { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 2.4s cubic-bezier(.22,1,.36,1) .3s forwards; }
+  .pop { transform-box: fill-box; transform-origin: center; transform: scale(0); animation: pop .5s cubic-bezier(.34,1.56,.64,1) forwards; }
+  @keyframes wiggle { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(3deg); } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes hop { to { transform: translateY(-10px); } }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes pop { to { transform: scale(1); } }</style>
+
+  <rect x="2" y="22" width="22" height="22" fill="#58a8ff"/>
+  <text x="42" y="44" font-family="'Press Start 2P'" font-size="22" font-weight="400" fill="#58a8ff" letter-spacing="0" text-anchor="start" >SAVED GAMES</text>
+</svg>
