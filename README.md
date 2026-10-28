@@ -112,7 +112,7 @@ const daniela = {
 
 <img src="https://streak-stats.demolab.com?user=irenehl&theme=radical&hide_border=true&background=1a1b27&ring=E94BA8&fire=FFB347&currStreakLabel=E94BA8" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=irenehl&bg_color=1a1b27&color=ffffff&line=E94BA8&point=7F5AF0&area=true&area_color=7F5AF0&hide_border=true" />
+<img width="100%" src="https://ghchart.rshah.org/E94BA8/irenehl" alt="Contribution chart" />
 
 </div>
 
